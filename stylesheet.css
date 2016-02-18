@@ -1,0 +1,124 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+/*Page Construction*/
+.page {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.row {
+  width:100%;
+  text-align: center;
+}
+.block {
+  display: inline-block;
+  padding: 5px;
+}
+.center {
+  display: inline-block;
+}
+.floating_box {
+  float:left;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+.large_image {
+  width: 80%;
+}
+
+/*Shapes*/
+.black_rectangle {
+  width: auto;
+  background-color: black;
+  height: 3px;
+}
+
+/*Animation*/
+.hover_gray {
+  color: black;
+}
+.hover_gray:hover{
+  color: gray;
+}
+
+/*Appearance and Fonts*/
+.text_bubble{
+  padding:10px;
+}
+.center_text {
+  text-align: center;
+}
+.font40 {
+  font-size: 40px;
+}
+.font20 {
+  font-size: 20px;
+}
+.hidden {
+  display: none;
+}
+.fb_text {
+  font-size: 20px;
+  color: white;
+  height: 168px;
+  overflow: scroll;
+  text-align: left;
+  padding-left: 4px;
+}
+.fb_image {
+  width: 100%;
+  height: 100%;
+}
+.fb_title {
+  font-size: 24px;
+  padding: 5px;
+  border-bottom: thin solid white;
+}
+.color_black {
+  color: black;
+}
+a {
+  color: white;
+}
+/*Images*/
+#thredUP {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Thredup-logo-september-2014.png');
+}
+#bodyboarding {
+  background-image: url('http://i.ytimg.com/vi/MHqT4mfMZAY/maxresdefault.jpg');
+  background-size: cover;
+}
+#balf {
+  background-image: url('http://i.ytimg.com/vi/mjvHD5QgTfs/maxresdefault.jpg');
+  background-size: cover;
+}
+#grocery {
+  background-image: url('Images/Grocery_List.png');
+  background-size: cover;
+}
+#fractal {
+  background-image: url('Images/Fractal_Grapher.jpg');
+  background-size: cover;
+}
+#frolf {
+  background-image: url('http://i.ytimg.com/vi/swkbBqAy0sA/maxresdefault.jpg');
+  background-size: cover;
+}
+#website1 {
+  background-image: url('Images/MacallanBrown.png');
+  background-repeat: no-repeat;
+}
+#luzzard {
+  background-image: url('Images/TheiaLogo.jpg');
+  background-size: cover;
+}
+#polarplunge {
+  background-image: url('https://i.ytimg.com/vi/E6TJT4ystM0/mqdefault.jpg');
+  background-size: cover;
+}
