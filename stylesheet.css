@@ -1,124 +1,150 @@
-body {
-  font-family: 'Playfair Display', serif;
-}
-/*Page Construction*/
-.page {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.row {
-  width:100%;
-  text-align: center;
-}
-.block {
-  display: inline-block;
-  padding: 5px;
-}
-.center {
-  display: inline-block;
-}
-.floating_box {
-  float:left;
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-  background-color: black;
-  border-style: solid;
-  border-width: 5px;
-}
-.large_image {
-  width: 80%;
+html{
+   font-family: 'Assistant', sans-serif;
+   font-weight: 300;
 }
 
-/*Shapes*/
-.black_rectangle {
-  width: auto;
-  background-color: black;
-  height: 3px;
+body{
+   color: white;
+   background-color: #95a5a6;
+   margin: 0px;
 }
 
-/*Animation*/
-.hover_gray {
-  color: black;
-}
-.hover_gray:hover{
-  color: gray;
+/*----------------------------------------------HEADER and FOOTER--------------------*/
+header{
+   position:fixed;
+   width: 100%;
+   min-width: 272px;
+   background: rgba(158,153,153,0.3);
+   text-align: center;
+
 }
 
-/*Appearance and Fonts*/
-.text_bubble{
-  padding:10px;
+a{
+   text-decoration: none;
+   color: white;
 }
-.center_text {
-  text-align: center;
+
+header a, footer a{
+   color: rgba(255,255,255,1);
 }
-.font40 {
-  font-size: 40px;
+
+header a:hover, footer a:hover{
+   color: rgba(255,255,255, 1);
 }
-.font20 {
-  font-size: 20px;
+
+ul{
+   padding:0px;
+   margin:0px;
 }
-.hidden {
-  display: none;
+
+li{
+   display: inline-block;
+   padding: 8px;
+   margin: 0px 2%;
 }
-.fb_text {
-  font-size: 20px;
-  color: white;
-  height: 168px;
-  overflow: scroll;
-  text-align: left;
-  padding-left: 4px;
+
+footer{
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   min width: 272px;
+   background: rgba(158,153,153,0.19);
+   text-align: center;
+   animation-name: fadeInSmooth;
+   animation-duration: 4s;
 }
-.fb_image {
-  width: 100%;
-  height: 100%;
+
+/*----------------------------------------------HOME--------------------*/
+
+h1{
+   font-weight: 300;
+   color:#B8E986;
+   font-size: 40px;
+   animation-name: fadeInSmooth;
+   animation-duration: 1s;
 }
-.fb_title {
-  font-size: 24px;
-  padding: 5px;
-  border-bottom: thin solid white;
+div a:hover{
+   color:#BCDBDD;
+   border-color: #BCDBDD;
 }
-.color_black {
-  color: black;
+.center_h{
+   margin: 0 auto;
+   text-align: center;
+   width: 50%;
 }
-a {
-  color: white;
+.large_top_margin{
+   padding-top: 18%;
 }
-/*Images*/
-#thredUP {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Thredup-logo-september-2014.png');
+.double_border{
+   border-width: 1px;
+   border-color: white;
+   border-style: double;
 }
-#bodyboarding {
-  background-image: url('http://i.ytimg.com/vi/MHqT4mfMZAY/maxresdefault.jpg');
-  background-size: cover;
+.button_home{
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 100px;
+   display: inline-block;
+   text-align: center;
+   margin: 0 10px;
+   animation-name: fadeInSmooth;
+   animation-duration: 2s;
 }
-#balf {
-  background-image: url('http://i.ytimg.com/vi/mjvHD5QgTfs/maxresdefault.jpg');
-  background-size: cover;
+@keyframes fadeInSmooth {
+    0%   {opacity: 0}
+    100% {opacity: 1.0}
 }
-#grocery {
-  background-image: url('Images/Grocery_List.png');
-  background-size: cover;
+
+/*----------------------------------------------ABOUT ME--------------------*/
+
+.about_me{
+   margin-top: 400px;
+   margin-bottom: 400px;
+   background-color: #34495e;
+   padding-bottom: 40px;
 }
-#fractal {
-  background-image: url('Images/Fractal_Grapher.jpg');
-  background-size: cover;
+.center_image{
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 40px;
+   display:block;
+   text-align: center;
+   visibility: hidden;
 }
-#frolf {
-  background-image: url('http://i.ytimg.com/vi/swkbBqAy0sA/maxresdefault.jpg');
-  background-size: cover;
+.about_column{
+   display:inline-block;
+   vertical-align:top;
+   margin: 0px 8px;
+   border-radius: 10px;
+   width: 300px;
+   padding: 4px;
+   padding-left: 8px;
+   border-left: thick solid white;
+   border-right: thick solid white;
+   font-size: 20px;
 }
-#website1 {
-  background-image: url('Images/MacallanBrown.png');
-  background-repeat: no-repeat;
+.font16{
+   font-size: 16px;
+   padding:0;
+   margin:0;
 }
-#luzzard {
-  background-image: url('Images/TheiaLogo.jpg');
-  background-size: cover;
+.font25{
+   font-size:48px;
 }
-#polarplunge {
-  background-image: url('https://i.ytimg.com/vi/E6TJT4ystM0/mqdefault.jpg');
-  background-size: cover;
+p{
+   padding:0px;
+   margin:0px;
+}
+.about_me li{
+   display: block;
+}
+
+.about_description{
+   text-align: center;
+}
+.text_left{
+   text-align:left;
+}
+.p_space{
+   margin-top: 15px;
 }
