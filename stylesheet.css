@@ -58,7 +58,7 @@ footer{
 
 h1{
    font-weight: 300;
-   color:#B8E986;
+   color:#87D37C;
    font-size: 40px;
    animation-name: fadeInSmooth;
    animation-duration: 1s;
@@ -99,7 +99,6 @@ div a:hover{
 
 .about_me{
    margin-top: 400px;
-   margin-bottom: 400px;
    background-color: #34495e;
    padding-bottom: 40px;
 }
@@ -147,4 +146,27 @@ p{
 }
 .p_space{
    margin-top: 15px;
+}
+
+/*----------------------------------------------Projects--------------------*/
+
+.projects{
+   background-color: #87D37C;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.project_window{
+   width: 300px;
+   padding: 50 15 50 15;
+   border-bottom: 2px solid white;
+}
+
+.project_title{
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+   border-bottom: thin dashed white;
 }
