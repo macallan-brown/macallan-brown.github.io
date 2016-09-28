@@ -109,6 +109,7 @@ div a:hover{
    display:block;
    text-align: center;
    visibility: hidden;
+   
 }
 .about_column{
    display:inline-block;
@@ -157,9 +158,10 @@ p{
 }
 
 .project_window{
-   width: 300px;
+   width: 450px;
    padding: 50 15 50 15;
-   border-bottom: 2px solid white;
+   border: 2px solid white;
+   margin-bottom: 15px;
 }
 
 .project_title{
@@ -169,4 +171,8 @@ p{
    padding-bottom: 10px;
    font-size: 18px;
    border-bottom: thin dashed white;
+}
+
+.screenshot{
+   margin-top: 15px;
 }
