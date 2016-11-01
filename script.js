@@ -16,7 +16,7 @@ $(window).scroll(function() {
 			if (imagePos < topOfWindow) {
 				$("footer").fadeOut(200);
 				$("header").fadeOut(200);
-			} else if($("footer").is(":hidden")) {
+			} else if($("header").is(":hidden")) {
 				$("footer").fadeIn(200);
 				$("header").fadeIn(200);
 			}
