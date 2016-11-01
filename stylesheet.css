@@ -30,13 +30,51 @@ h2{
    border-bottom: 2px solid #44565A;
 }
 
-.halfWidth{
+.width30{
+   width: 29%;
+   display: inline-block;
+}
+
+.width50{
    width: 49%;
    display: inline-block;
+}
+
+.width70{
+   width: 69%;
+   display: inline-block;
+   vertical-align: top;
 }
 
 .linkImage{
    margin-left: 20px;
    margin-top: 20px;
    float: right;
+}
+
+/*----------------------------------------------Table of Contents--------------------*/
+#toc{
+   margin-top: 10px;
+}
+.tocLinkContainer{
+   height: 150px;
+   width:100%;
+   vertical-align: top;
+}
+.textRight{
+   text-align: right;
+
+}
+.tocLink{
+   color: #44565A;
+   font-size: 36px;
+   text-decoration: underline;
+   margin-left: 20px;
+   margin-top: 0px;
+}
+.tocSubLink{
+   font-size: 24px;
+   margin-left: 20px;
+   color: #44565A;
+   text-decoration: none;
 }
