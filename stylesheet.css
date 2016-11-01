@@ -61,7 +61,6 @@ h2{
 /*----------------------------------------------Table of Contents--------------------*/
 #toc{
    display: inline-block;
-   width:100%;
 }
 .tocLinkContainer{
    vertical-align: top;
@@ -69,7 +68,6 @@ h2{
 }
 .textRight{
    text-align: right;
-
 }
 .tocLink{
    color: #44565A;
@@ -78,9 +76,56 @@ h2{
    margin-left: 20px;
 }
 .tocSubLink{
-   padding-top: 30px;
+   margin-top: 30px;
    font-size: 24px;
    margin-left: 20px;
    color: #44565A;
    text-decoration: none;
+}
+
+/*----------------------------------------------About Me---------------------------*/
+#aboutMe{
+   margin-top: 20px;
+}
+
+.width40{
+   display: inline-block;
+   width: 39%;
+   min-width: 400px;
+   margin-top: 40px;
+}
+.width60{
+   display: inline-block;
+   width: 59%;
+   vertical-align: top;
+   min-width:450px;
+   margin-top: 40px;
+}
+
+.centerText{
+   text-align: center;
+}
+
+.hugeText{
+   font-size: 100px;
+}
+
+p{
+   margin-left: 10px;
+   font-size:30px;
+}
+
+a{
+   color: #44565A;
+}
+
+h3{
+   margin-left: 10px;
+   font-weight: 300;
+   font-size: 24px;
+}
+
+/*----------------------------------------------Projects---------------------------*/
+#projects{
+   margin-top: 60px;
 }
