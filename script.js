@@ -1,4 +1,5 @@
 $(document).ready(function() {
+   addClasses();
    addProjects();
 
    $("#minitoc").hide(); //hide your div initially
@@ -14,6 +15,11 @@ $(document).ready(function() {
 
 
 var data = {
+
+   classesTaken: ["Data Structures", "Mathematics of Computer Science", "Organization & Architecture",
+   "Software Design", "Digital Electronics", "Multivariable Calculus", "Computability & Complexity",
+	"Linear Algebra", "Animation (Film)", "Programming Languages", "Data Visualization"],
+
    programmingProjects: [
       {
          title: "Captain's Log",
@@ -57,6 +63,13 @@ var data = {
       }
    ]
 };
+
+var addClasses = function(){
+   data.classesTaken.forEach(function(c) {
+      var $currentClass = $("<h3>• " + c + "</h3>");
+      $("#classesContainer").append($currentClass);
+   });
+}
 
 var addProjects = function(){
    var $programmingProjectTitle = $("<a name='programming'></a><div class='customHeader'>Programming Projects</div>");
