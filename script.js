@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
 var data = {
-   projects: [
+   programmingProjects: [
       {
          title: "Captain's Log",
          link: "https://github.com/macallan-brown",
@@ -34,13 +34,55 @@ var data = {
          languages: ["Java", "HTML", "CSS", "Javascript"],
          description: "A desktop notetaking app that converts your notes into interactive webpages."
       }
+   ],
+   workProjects: [
+      {
+         title: "thredUP - iOS Engineering Intern",
+         link: "https://www.thredup.com",
+         linkDescription: "thredUP.com",
+         languages: ["Objective-C"],
+         description: ["Worked as an iOS Engineering Intern at thredUP for the Summer of 2016."]
+      },{
+         title: "Carleton College - Information Technology Assistant",
+         link: "https://apps.carleton.edu/campus/its/",
+         linkDescription: "Carleton Information Technology Services",
+         languages: [],
+         description: "Since 2014, I have worked 10 hours per week as an IT Assistant at Carleton College. I provide technology support to staff and students."
+      },{
+         title: "thredUP - Android Engineering Intern",
+         link: "https://www.thredup.com",
+         linkDescription: "thredUP.com",
+         languages: ["Java"],
+         description: "During the summer of 2015, I was an intern for the Android team at thredUP."
+      }
    ]
 };
 
 var addProjects = function(){
+   var $programmingProjectTitle = $("<a name='programming'></a><div class='customHeader'>Programming Projects</div>");
+   $("#projectsContainer").append($programmingProjectTitle);
+   data.programmingProjects.forEach(function(project) {
+      var $project = $("<div class='project'></div>");
 
-   data.projects.forEach(function(project) {
-      console.log(project);
+      var $title = $("<div class='title'></div>");
+      $title.text(project.title);
+      $project.append($title);
+
+      var $link = $("<a target='_blank' href='" + project.link +"'></a>");
+      $link.text(project.linkDescription);
+      $project.append($link);
+
+      var $description = $("<div class='description'></div>");
+      $description.text(project.description);
+      $project.append($description);
+
+      $("#projectsContainer").append($project);
+   });
+
+
+   var $workProjectTitle = $("<a name='work'></a><div class='customHeader'>Work Projects</div>");
+   $("#projectsContainer").append($workProjectTitle);
+   data.workProjects.forEach(function(project) {
       var $project = $("<div class='project'></div>");
 
       var $title = $("<div class='title'></div>");
