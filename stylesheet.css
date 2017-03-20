@@ -141,9 +141,9 @@ h3{
 
 /*----------------------------------------------Projects---------------------------*/
 #projectsContainer {
-   max-width: 400px;
+   max-width: 500px;
    margin-left: auto;
-   margin-right:auto;
+   margin-right: auto;
 }
 
 .customHeader {
@@ -167,4 +167,18 @@ h3{
 
 .description {
    font-size: 14px;
+}
+
+#resumeContainer {
+   text-align: center;
+}
+
+#resumeEmbedd {
+   width: 500px;
+   height: 720px;
+}
+
+.resumeHeader{
+   text-align: center;
+   margin-top: 50px;
 }
