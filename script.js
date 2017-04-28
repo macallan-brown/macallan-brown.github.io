@@ -21,9 +21,15 @@ var data = {
 	"Linear Algebra", "Animation (Film)", "Programming Languages", "Data Visualization"],
 
    programmingProjects: [
-      {
+     {
+        title: "Challenger Visualization",
+        link: "https://github.com/macallan-brown/challenge-visualization",
+        linkDescription: "See on Github",
+        languages: ["Javascript"],
+        description: ["An interactive visualization created with the D3 Javascript library that shows information on the 23 flights prior to the challenger disaster."]
+     },{
          title: "Captain's Log",
-         link: "https://github.com/macallan-brown",
+         link: "https://github.com/macallan-brown/CaptainsLog",
          linkDescription: "See on Github",
          languages: ["Swift"],
          description: ["Captain's log keeps track of the important moments, whatever that might mean to you."]
@@ -35,7 +41,7 @@ var data = {
          description: "A website for making queries on the top critically acclaimed music of all time"
       },{
          title: "Hot Notes",
-         link: "https://github.com/macallan-brown",
+         link: "https://github.com/MayerDaniel/hotnotes",
          linkDescription: "See on Github",
          languages: ["Java", "HTML", "CSS", "Javascript"],
          description: "A desktop notetaking app that converts your notes into interactive webpages."
