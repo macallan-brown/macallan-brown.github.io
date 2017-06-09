@@ -182,3 +182,13 @@ h3{
    text-align: center;
    margin-top: 50px;
 }
+
+.horizontalScroll{
+  overflow-x: scroll;
+}
+
+#projectPictures{
+  height: 400px;
+  width: 700px;
+  background-color: black;
+}
