@@ -22,9 +22,16 @@ var data = {
 
    programmingProjects: [
      {
+        title: "Film Tag Visualization",
+        link: "https://film-tag-vis.firebaseapp.com/",
+        linkDescription: "See it live!",
+        languages: ["Javascript"],
+        description: ["Our final project for my Data Visualization class. It is a visualization that allows for the exploration of movies and relevant tags. Best to just try it out!"]
+     },
+     {
         title: "Challenger Visualization",
         link: "https://challenger-visualization.firebaseapp.com/",
-        linkDescription: "See on Github",
+        linkDescription: "See it live!",
         languages: ["Javascript"],
         description: ["An interactive visualization created with the D3 Javascript library that shows information on the 23 flights prior to the challenger disaster."]
      },{
