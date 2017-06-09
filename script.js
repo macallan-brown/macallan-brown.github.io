@@ -23,7 +23,7 @@ var data = {
    programmingProjects: [
      {
         title: "Challenger Visualization",
-        link: "https://github.com/macallan-brown/challenge-visualization",
+        link: "https://challenger-visualization.firebaseapp.com/",
         linkDescription: "See on Github",
         languages: ["Javascript"],
         description: ["An interactive visualization created with the D3 Javascript library that shows information on the 23 flights prior to the challenger disaster."]
@@ -48,7 +48,13 @@ var data = {
       }
    ],
    workProjects: [
-      {
+     {
+        title: "Looker - Engineering Intern",
+        link: "https://looker.com/",
+        linkDescription: "looker.com",
+        languages: ["Javascript?"],
+        description: ["Engineering Intern at Looker during the summer of 2017."]
+     },{
          title: "thredUP - iOS Engineering Intern",
          link: "https://www.thredup.com",
          linkDescription: "thredUP.com",
@@ -98,6 +104,15 @@ var addProjects = function(){
    $("#projectsContainer").append($programmingProjectTitle);
    data.programmingProjects.forEach(function(project) {
       var $project = $("<div class='project'></div>");
+      $project.click(function() {
+        switch (project["title"]) {
+          case "Challenger Visualization":
+            loadProgrammingProject(project["title"]);
+            break;
+          default:
+
+        }
+      });
 
       var $title = $("<div class='title'></div>");
       $title.text(project.title);
