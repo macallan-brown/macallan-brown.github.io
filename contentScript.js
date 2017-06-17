@@ -1,5 +1,5 @@
 
-var isUsingRealData = false; //SET TO FALSE WHILE TESTING TO USE SAMPLE DATA INSTEAD OF CALLING TO DB
+var isUsingRealData = true; //SET TO FALSE WHILE TESTING TO USE SAMPLE DATA INSTEAD OF CALLING TO DB
 
 // Initialize Firebase
 var config = {
