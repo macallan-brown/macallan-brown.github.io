@@ -2,11 +2,11 @@
   <head>
 		<title>Macallan Brown</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-      <link rel="stylesheet" type="text/css" href="animate.css"/>
-
+    <link rel="stylesheet" type="text/css" href="animate.css"/>
+    <link rel="stylesheet" type="text/css" href="contentStylesheet.css"/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
 
       <link href="https://fonts.googleapis.com/css?family=Assistant:300,400" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -19,7 +19,7 @@
       <header>
          <div class="row underLine">
             <div class="width50">
-               <h1>Macallan Brown</h1>
+               <h1><a style="text-decoration: none" href="/index.html">Macallan Brown</a></h1>
                <h2>macallan@perabrown.com</h2>
             </div>
             <div class="width50">
@@ -36,7 +36,13 @@
          </div>
       </header>
 
+      <div id="favoriteMovieContainer">
+        <h3>Some of my favorite movies:</h3>
+      </div>
 
+
+
+      <script type="text/javascript" src="contentScript.js"></script>
 
    </body>
 

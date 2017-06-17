@@ -186,9 +186,3 @@ h3{
 .horizontalScroll{
   overflow-x: scroll;
 }
-
-#projectPictures{
-  height: 400px;
-  width: 700px;
-  background-color: black;
-}

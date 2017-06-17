@@ -1,0 +1,12 @@
+{
+  "movies" : {
+    "future-movies" : {
+      "Super-8" : "high"
+    },
+    "seen-movies" : {
+      "Grand Budapest Hotel" : 7,
+      "Moonlight" : 9,
+      "The Barkley Marathons": 8
+    }
+  }
+}

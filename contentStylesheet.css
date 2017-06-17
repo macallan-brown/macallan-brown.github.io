@@ -1,0 +1,15 @@
+.inlineBlock {
+  display: inline-block;
+}
+
+.movieTitle {
+  padding: 10px;
+}
+
+.movieRating {
+  padding:10px;
+}
+
+.favoriteMovie {
+  align: right;
+}
