@@ -154,19 +154,19 @@ h3{
 .project {
    background-color:    white;
    border: 2px solid #D7B377;
-   padding: 5px;
+   padding: 20px;
 
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-top: 40px;
+   margin-bottom: 40px;
 }
 
 .title {
-   font-size: 20px;
+   font-size: 30px;
    font-weight: bold;
 }
 
 .description {
-   font-size: 14px;
+   font-size: 25px;
 }
 
 #resumeContainer {

@@ -18,9 +18,17 @@ var data = {
 
    classesTaken: ["Data Structures", "Mathematics of Computer Science", "Organization & Architecture",
    "Software Design", "Digital Electronics", "Multivariable Calculus", "Computability & Complexity",
-	"Linear Algebra", "Animation (Film)", "Programming Languages", "Data Visualization"],
+	"Linear Algebra", "Animation (Film)", "Programming Languages", "Data Visualization",
+  "Natural Language Processing", "Algorithms", "Computer Security", "Digital Cinema Culture"],
 
    programmingProjects: [
+     {
+        title: "Shottey",
+        link: "http://www.shottey.com",
+        linkDescription: "shottey.com",
+        languages: ["Swift"],
+        description: ["I worked on Shottey for my senior thesis project at Carleton College. Myself and my teamates worked with the Women's Varsity Volleyball teamates to create a tool that they would use. Shottey is now available on the App Store."]
+     },
      {
         title: "Film Tag Visualization",
         link: "https://film-tag-vis.firebaseapp.com/",
@@ -56,10 +64,17 @@ var data = {
    ],
    workProjects: [
      {
+       title: "Looker - Software Engineer",
+       link: "https://looker.com",
+       linkDescription: "looker.com",
+       languages: [],
+       description: ["I am extremely excited to join looker as a full time software engineer starting in late July 2018."]
+     },
+     {
         title: "Looker - Engineering Intern",
         link: "https://looker.com/",
         linkDescription: "looker.com",
-        languages: ["Javascript?"],
+        languages: ["Javascript"],
         description: ["Engineering Intern at Looker during the summer of 2017."]
      },{
          title: "thredUP - iOS Engineering Intern",
@@ -83,7 +98,13 @@ var data = {
    ],
 
    creativeProjects: [
-      {
+     {
+        title: "Photography",
+        link: "http://macallanbrown.tumblr.com/",
+        linkDescription: "Tumblr",
+        languages: [],
+        description: ["A collection of my favorite photographs that I have taken."]
+     },{
          title: "Photography",
          link: "http://macallanbrown.tumblr.com/",
          linkDescription: "Tumblr",
@@ -101,7 +122,7 @@ var data = {
 
 var addClasses = function(){
    data.classesTaken.forEach(function(c) {
-      var $currentClass = $("<h3>• " + c + "</h3>");
+      var $currentClass = $("<h3> " + c + "</h3>");
       $("#classesContainer").append($currentClass);
    });
 }
